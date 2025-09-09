@@ -40,17 +40,17 @@
             // 
             // button1
             // 
-            button1.Location = new Point(45, 348);
+            button1.Location = new Point(79, 324);
             button1.Name = "button1";
             button1.Size = new Size(156, 51);
             button1.TabIndex = 0;
-            button1.Text = "Fazer login";
+            button1.Text = "Fazer Login";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
             // button2
             // 
-            button2.Location = new Point(473, 348);
+            button2.Location = new Point(499, 324);
             button2.Name = "button2";
             button2.Size = new Size(166, 51);
             button2.TabIndex = 1;
@@ -61,7 +61,7 @@
             // lblUsuario
             // 
             lblUsuario.AutoSize = true;
-            lblUsuario.Location = new Point(70, 90);
+            lblUsuario.Location = new Point(122, 94);
             lblUsuario.Name = "lblUsuario";
             lblUsuario.Size = new Size(47, 15);
             lblUsuario.TabIndex = 7;
@@ -69,15 +69,16 @@
             // 
             // txtUsuario
             // 
-            txtUsuario.Location = new Point(56, 120);
+            txtUsuario.Location = new Point(101, 122);
             txtUsuario.Name = "txtUsuario";
             txtUsuario.Size = new Size(100, 23);
             txtUsuario.TabIndex = 6;
+            txtUsuario.TextChanged += txtUsuario_TextChanged;
             // 
             // lblDigiteSuaSenha
             // 
             lblDigiteSuaSenha.AutoSize = true;
-            lblDigiteSuaSenha.Location = new Point(56, 228);
+            lblDigiteSuaSenha.Location = new Point(101, 184);
             lblDigiteSuaSenha.Name = "lblDigiteSuaSenha";
             lblDigiteSuaSenha.Size = new Size(93, 15);
             lblDigiteSuaSenha.TabIndex = 5;
@@ -85,7 +86,7 @@
             // 
             // txtSenha
             // 
-            txtSenha.Location = new Point(56, 246);
+            txtSenha.Location = new Point(101, 202);
             txtSenha.Name = "txtSenha";
             txtSenha.Size = new Size(100, 23);
             txtSenha.TabIndex = 4;
@@ -103,12 +104,13 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI Emoji", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(388, 246);
+            label2.Font = new Font("Segoe UI Emoji", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.Location = new Point(408, 278);
             label2.Name = "label2";
-            label2.Size = new Size(358, 36);
+            label2.Size = new Size(370, 26);
             label2.TabIndex = 9;
-            label2.Text = "Não tem ainda? Cadastre-se!";
+            label2.Text = "Ainda não possui uma conta? Cadastre-se!";
+            label2.Click += label2_Click;
             // 
             // Form1
             // 

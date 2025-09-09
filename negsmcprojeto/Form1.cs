@@ -9,7 +9,7 @@ namespace negsmcprojeto
 
         private void Form1_Load(object sender, EventArgs e)
         { }
-             private void btnFazerLogin_Click(object sender, EventArgs e)
+        private void btnFazerLogin_Click(object sender, EventArgs e)
         {
             string usuario = txtUsuario.Text;
             string senha = txtSenha.Text;
@@ -34,7 +34,7 @@ namespace negsmcprojeto
         {
             MessageBox.Show("Tela de cadastro ainda não implementada.");
         }
-        
+
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -48,5 +48,19 @@ namespace negsmcprojeto
 
         }
 
+        private void txtUsuario_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
